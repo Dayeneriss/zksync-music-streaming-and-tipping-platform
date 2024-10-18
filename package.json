@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "@matterlabs/hardhat-zksync": "^1.0.0",
-    "@matterlabs/zksync-contracts": "^0.6.1",
+    "@matterlabs/zksync-contracts": "^0.2.0",
     "@nomiclabs/hardhat-etherscan": "^3.1.7",
     "@openzeppelin/contracts": "^4.6.0",
     "@types/chai": "^4.3.4",

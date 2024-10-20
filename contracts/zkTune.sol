@@ -168,15 +168,10 @@ contract zkTune is Ownable {
     
             // Return the audio URI
             // ASSIGNMENT #9
-            song.streamCount++; // Increment stream count
-            userStreams[msg.sender].push(_songId); // Add song ID to the user's streams
-    
-            emit SongStreamed(_songId, msg.sender); // Emit SongStreamed event
-    
-            // Return the audio URI
             return song.audioURI;
+        }
     }
-
+    
     // Function to get all songs
     function getAllSongs() external view returns (Song[] memory) {
         Song[] memory allSongs = new Song[](songIds.length); // Create an array of Song structs
